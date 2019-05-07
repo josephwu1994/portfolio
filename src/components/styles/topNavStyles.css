@@ -1,0 +1,38 @@
+.navContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100px;
+  background-color: transparent;
+  z-index: 1000;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconContainer {
+  padding-left: 2rem;
+  width: 4rem;
+  height: 4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.menuIcon {
+  font-size: 3rem;
+  color: white;
+}
+
+.navTab {
+  background-color: transparent;
+  font-size: 2rem;
+  color: #FFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
